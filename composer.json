@@ -18,11 +18,6 @@
   "require": {
     "aws/aws-sdk-php": "2.*"
   },
-  "autoload": {
-    "psr-4": {
-      "grigorieff\\aws\\": ""
-    }
-  },
   "repositories": [
     {
       "type": "composer",
@@ -31,6 +26,11 @@
     {
       "type": "vcs",
       "url": "https://github.com/grigorieff/yii2-aws"
-    },
-  ]
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "grigorieff\\aws\\": ""
+    }
+  }
 }
