@@ -1,7 +1,7 @@
 {
   "name": "grigorieff/yii2-aws",
   "description": "Yii2 component for Amazon Web Service",
-  "version": "0.1.0",
+  "version": "dev-master",
   "keywords": [
     "yii2",
     "extension",
