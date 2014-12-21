@@ -2,6 +2,7 @@
   "name": "grigorieff/yii2-aws",
   "description": "Yii2 component for Amazon Web Service",
   "version": "dev-master",
+  "minimum-stability": "dev",
   "keywords": [
     "yii2",
     "extension",
@@ -21,5 +22,15 @@
     "psr-4": {
       "grigorieff\\aws\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org/packages/grigorieff/yii2-aws"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/grigorieff/yii2-aws"
+    },
+  ]
 }
