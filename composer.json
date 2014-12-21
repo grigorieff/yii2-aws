@@ -1,0 +1,25 @@
+{
+  "name": "grigorieff/yii2-aws",
+  "description": "Yii2 component for Amazon Web Service",
+  "version": "0.1.0",
+  "keywords": [
+    "yii2",
+    "extension",
+    "aws",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Mike Grigorieff",
+      "email": "grigorief@gmail.com"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "grigorieff\\aws\\": ""
+    }
+  }
+}
